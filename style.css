@@ -5,6 +5,14 @@
     margin-top: -5%;
  }
 
+#capyCart {
+    display: block;
+    width: 20%;
+    height: 20%;
+    padding-top: 2%;
+
+}
+
 body {
     background-color: cadetblue;
 }
