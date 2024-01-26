@@ -15,20 +15,38 @@ h4 {
     color: #FBF719;
     margin-top: 0%;
     font-family: papyrus;
+}
 
+.cuteness {
+    display: block;
+    margin-top: -8%;
+    color: rgb(246, 240, 128);
+    text-align: center;
+    font-family: papyrus;
+    font-size: larger;
 }
 
 .foodImages {
     display: block;
     margin-left: 5%;
-    padding-top: 5%;
+    padding-top: 7%;
     padding-bottom: 5%;
     width: 35%;
-    height: 230px;
+    max-height: 10%;
     object-fit: cover;
     clip-path: circle(55%);
-    /* border-color: #f5a955;
-    border-radius: 50px;
-    object-fit: auto; */
-
+    border-color: #f5a955;
+    border-radius: 30px;
+    object-fit: auto;
 }  
+
+.col {
+    display: block;
+    padding-top: 7%;
+    color: rgb(216, 229, 198);
+}
+
+
+h5 {
+    margin-top: -5%;
+}
