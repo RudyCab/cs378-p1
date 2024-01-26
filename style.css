@@ -29,16 +29,14 @@ h4 {
 
 .foodImages {
     display: block;
+    border-radius: 30px;
     margin-left: 5%;
     padding-top: 7%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
     width: 35%;
-    max-height: 10%;
+    max-height: 200px;
     object-fit: cover;
-    clip-path: circle(55%);
-    border-color: #f5a955;
-    border-radius: 45px;
-    object-fit: auto;
+    object-fit: center;
 }  
 
 .foodName {
@@ -71,19 +69,18 @@ p {
 }
 
 button {
-    margin-left: 50%;
-    margin-top: 0;
+    margin-left: 60%;
+    position: relative;
+    top: -50px;
     background-color: #a7cca8; /* Green */
     color: black;
     border-radius: 90px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: "serif";
 }
 
 button:hover {
     background-color: #45a049; /* Darker green on hover */
-}
-button:focus {
-    outline: none;
 }
