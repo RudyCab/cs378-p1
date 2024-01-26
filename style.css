@@ -19,7 +19,8 @@ h4 {
 
 .cuteness {
     display: block;
-    margin-top: -8%;
+    margin-top: -5%;
+    padding-bottom: 0;
     color: rgb(246, 240, 128);
     text-align: center;
     font-family: papyrus;
@@ -36,7 +37,7 @@ h4 {
     object-fit: cover;
     clip-path: circle(55%);
     border-color: #f5a955;
-    border-radius: 30px;
+    border-radius: 45px;
     object-fit: auto;
 }  
 
@@ -65,13 +66,24 @@ h5 {
 
 p {
     font-size: small;
+    font-family: fantasy;
+    line-height: 2;
 }
 
 button {
-    margin-top: 175%;
+    margin-left: 50%;
+    margin-top: 0;
     background-color: #a7cca8; /* Green */
-    color: white;
-    border-radius: 5px;
+    color: black;
+    border-radius: 90px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
-
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+button:focus {
+    outline: none;
 }
