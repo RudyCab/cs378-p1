@@ -40,13 +40,38 @@ h4 {
     object-fit: auto;
 }  
 
+.foodName {
+    font-size: large;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
 .col {
     display: block;
-    padding-top: 7%;
+    padding-top: 10%;
     color: rgb(216, 229, 198);
 }
 
+h3 {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: -5%;
+}
 
 h5 {
     margin-top: -5%;
+}
+
+p {
+    font-size: small;
+}
+
+button {
+    margin-top: 175%;
+    background-color: #a7cca8; /* Green */
+    color: white;
+    border-radius: 5px;
+
+
 }
